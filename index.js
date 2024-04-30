@@ -8,5 +8,5 @@ app.get('/tshirt', (req, res) => {
         size: 'Large'
     })
 });
-
+// You can get the API listener output for the t-shirt from the following console log
 app.listen(PORT, () => console.log(`It's live on http://localhost:${PORT}`));
